@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <title>B-Team</title>
+    <description>Our Blogg for Founders and Coders</description>
+    <link>http://bteamfc.co.uk/</link>
+    <atom:link href="http://bteamfc.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Izaak&#39;s Post</title>
@@ -13,8 +13,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/broken-computer.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Jun 2014 13:17:36 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/18/new-test-post/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/18/new-test-post/</guid>
+        <link>http://bteamfc.co.uk/jekyll/update/2014/06/18/new-test-post/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/18/new-test-post/</guid>
       </item>
     
       <item>
@@ -34,8 +34,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/17/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/17/welcome-to-jekyll/</guid>
+        <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/17/welcome-to-jekyll/</guid>
       </item>
     
       <item>
@@ -45,8 +45,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/06/17/barry/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/06/17/barry/</guid>
+        <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</guid>
       </item>
     
   </channel>

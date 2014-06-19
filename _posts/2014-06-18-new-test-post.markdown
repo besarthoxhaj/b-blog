@@ -2,7 +2,7 @@
 layout: post
 title:  "Izaak's Post"
 date:   2014-06-18 13:17:36
-categories: jekyll update
+categories: news
 ---
 
 

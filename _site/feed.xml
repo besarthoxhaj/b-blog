@@ -7,18 +7,29 @@
     <atom:link href="http://bteamfc.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Izaak&#39;s Post</title>
+        <title>Izaak's Post</title>
         <description>&lt;p&gt;It’s day three and we’ve learnt quite a lot of quite a little. From that, understand we’ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/broken-computer.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Jun 2014 13:17:36 +0000</pubDate>
-        <link>http://bteamfc.co.uk/jekyll/update/2014/06/18/new-test-post/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/18/new-test-post/</guid>
+        <link>http://bteamfc.co.uk/news/2014/06/18/new-test-post/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/news/2014/06/18/new-test-post/</guid>
       </item>
     
       <item>
-        <title>Brain&#39;s Post!</title>
+        <title>Barry</title>
+        <description>&lt;p&gt;Barry’ &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
+        <link>http://bteamfc.co.uk/news/2014/06/17/barry/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/news/2014/06/17/barry/</guid>
+      </item>
+    
+      <item>
+        <title>Brain's Post!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit edit edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
@@ -33,20 +44,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
-        <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/17/welcome-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Barry</title>
-        <description>&lt;p&gt;Barry’s post&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
-        <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</guid>
+        <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+        <link>http://bteamfc.co.uk/tutorials/2014/06/17/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/17/welcome-to-jekyll/</guid>
       </item>
     
   </channel>

@@ -1,10 +1,18 @@
 ---
 layout: post
-title:  "Barry"
+title:  "How-to-set-up-Nitrous-development-area-using-Github-pages.."
 date: 2014-06-17 19:56:47
 categories: jekyll update
 ---
-
-Barry' 
-
 ![My helpful screenshot](/assets/image1.jpg)
+Below is a step-by-step guide to set up Nitrous development area using Github pages ..
+![My helpful screenshot](/assets/1.github.repository.png)
+blah
+![My helpful screenshot](/assets/2.createbox.nitrous.io.png)
+blah
+![My helpful screenshot](/assets/3.newbox.nitrous.io.png)
+blah
+![My helpful screenshot](/assets/4.nitrous.io.commandline.page.png)
+blah
+![My helpful screenshot](/assets/5.github.folders.appear.in.nitrous.io.png)
+blah

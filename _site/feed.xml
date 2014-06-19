@@ -39,10 +39,19 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
       </item>
     
       <item>
-        <title>Barry</title>
-        <description>&lt;p&gt;Barry’s post&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+        <title>How-to-set-up-Nitrous-development-area-using-Github-pages..</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+Below is a step-by-step guide to set up Nitrous development area using Github pages ..
+&lt;img src=&quot;/assets/1.github.repository.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+blah
+&lt;img src=&quot;/assets/2.createbox.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+blah
+&lt;img src=&quot;/assets/3.newbox.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+blah
+&lt;img src=&quot;/assets/4.nitrous.io.commandline.page.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+blah
+&lt;img src=&quot;/assets/5.github.folders.appear.in.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
+blah&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
         <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</link>

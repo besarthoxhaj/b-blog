@@ -1,10 +1,17 @@
 ---
 layout: post
-title:  "Barry"
+title:  "How-to-set-up-Nitrous-development-area-using-Github-pages.."
 date: 2014-06-17 19:56:47
 categories: news
 ---
+Below is a step-by-step guide to set up Nitrous development area using Github pages ..
 
-Barry' 
+![Github/nitrous Blog image1](https://www.dropbox.com/s/5s6q3u4rrbpmfjg/1.github.repository.png)
 
-![My helpful screenshot](/assets/image1.jpg)
+![Github/nitrous Blog image2](https://www.dropbox.com/s/vncvuhuviesfjdz/2.createbox.nitrous.io.png)
+
+![Github/nitrous Blog image3](https://www.dropbox.com/s/k8yk2kx344144pd/3.newbox.nitrous.io.png)
+
+![Github/nitrous Blog image4](https://www.dropbox.com/s/m4xi4k3d6n02df6/4.nitrous.io.commandline.page.png)
+
+![Github/nitrous Blog image5](https://www.dropbox.com/s/aeuxhd4ec4pmavx/5.github.folders.appear.in.Nitrous.io.png)

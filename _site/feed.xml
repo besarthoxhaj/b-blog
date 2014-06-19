@@ -40,18 +40,17 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
     
       <item>
         <title>How-to-set-up-Nitrous-development-area-using-Github-pages..</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/image1.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-Below is a step-by-step guide to set up Nitrous development area using Github pages ..
-&lt;img src=&quot;/assets/1.github.repository.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-blah
-&lt;img src=&quot;/assets/2.createbox.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-blah
-&lt;img src=&quot;/assets/3.newbox.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-blah
-&lt;img src=&quot;/assets/4.nitrous.io.commandline.page.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-blah
-&lt;img src=&quot;/assets/5.github.folders.appear.in.nitrous.io.png&quot; alt=&quot;My helpful screenshot&quot; /&gt;
-blah&lt;/p&gt;
+        <description>&lt;p&gt;Below is a step-by-step guide to set up Nitrous development area using Github pages ..&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5s6q3u4rrbpmfjg/1.github.repository.png&quot; alt=&quot;Github/nitrous Blog image1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/vncvuhuviesfjdz/2.createbox.nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/k8yk2kx344144pd/3.newbox.nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/m4xi4k3d6n02df6/4.nitrous.io.commandline.page.png&quot; alt=&quot;Github/nitrous Blog image4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/aeuxhd4ec4pmavx/5.github.folders.appear.in.Nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image5&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
         <link>http://bteamfc.co.uk/jekyll/update/2014/06/17/barry/</link>

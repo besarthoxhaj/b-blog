@@ -19,12 +19,14 @@
 
 
 
-    <body>
-     
-
-    <header class="site-header">
-  
-  <div class = "navbar navbar-inverse navbar-static-top">
+  <body>
+    
+    
+<!-- Header starts
+==============================-->
+    
+    <header>
+    <div class = "navbar navbar-inverse navbar-static-top">
     <div class = "container">
       
       <a href = "#" class = "navbar-brand">BTEAM</a>
@@ -38,80 +40,171 @@
       <div class = "collapse navbar-collapse navHeaderCollapse">
         <ul class = "nav navbar-nav navbar-right">
         
-          <li class = "active"><a href = "/index.html">Home</a></li>
+          <li><a href = "/index.html">Home</a></li>
           <li><a href = "/tutorials/">Tutorials</a></li>
-          <li class = "dropdown">
-            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
-          <ul class = "dropdown-menu">
-            <li><a href = "http://twitter.com/" target="_blank">Twitter</a></li>
-            <li><a href = "http://facebook.com/" target="_blank">Facebook</a></li>
-            <li><a href = "http://vine.com/" target="_blank">Vine</a></li>
-            <li><a href = "http://instagram.com/" target="_blank">Instagram</a></li>
-            </ul> 
-            
-          </li>
-          <li><a href = "/about.html">About Us</a></li>
+          <li><a href = "/posts/">Our journey</a></li>
+              
+              <li class = "dropdown">
+                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+              <ul class = "dropdown-menu">
+                <li><a href = "http://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href = "http://facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href = "http://vine.com/" target="_blank">Vine</a></li>
+                <li><a href = "http://instagram.com/" target="_blank">Instagram</a></li>
+                </ul> 
+              </li>
+          
+
           <li><a href = "/contact.html">Contact</a></li>
         
           </ul>
       </div>
     </div>
   </div>
-  
-  
-</header>
-
-
-<div class = "container">
-  <div class = "jumbotron">
-    <center><h1>BTEAM</h1>
-    <a href="/tutorials/" class = "btn btn-default">Tutorials</a>
-      <a href="/index.html" class = "btn btn-danger">Home</a></center>
-  </div>
-</div>
-
-
-    <div class="page-content">
-      <div class="wrap">
-      <div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
+    </header>
     
-      <li>
-        <span class="post-date">Jun 18, 2014</span>
-        <a class="post-link" href="/news/2014/06/18/new-test-post/">Izaak's Post</a>
-      </li>
+<!-- Header finish
+==============================-->
     
-      <li>
-        <span class="post-date">Jun 17, 2014</span>
-        <a class="post-link" href="/news/2014/06/17/barry/">How-to-set-up-Nitrous-development-area-using-Github-pages..</a>
-      </li>
     
-  </ul>
+    <!-- Carousel slides animation
+==========================================-->
+    
+        <div id = "myCarousel" class = "carousel slide">
+      <ol class = "carousel-indicators">
+        <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+        <li data-target = "#myCarousel" data-slide-to = "1"></li>
+        <li data-target = "#myCarousel" data-slide-to = "2"></li>
+      </ol>
 
-  <p class="rss-subscribe">subscribes <a href="/feed.xml">via RSS</a></p>
 
-</div>
+              <div class = "carousel-inner">
 
-      </div>
+                  <div class = "item active">
+                    <img src = "http://goo.gl/zlwdgC" alt = "Mountain" class = "img-responsive">
+                    <div class = "carousel-caption">
+                      <h1>Mountains</h1>
+                      <p>This is just a normal paragraph</p>
+                    </div>
+                  </div>
+
+                  <div class = "item">
+                    <img src = "http://goo.gl/yKvCbU" alt = "Wheat fields" class = "img-responsive">
+                    <div class = "carousel-caption">
+                      <h1>Wheat fields</h1>
+                      <p>This is just a normal paragraph</p>
+                    </div>
+                  </div>
+
+                  <div class = "item">
+                    <img src = "http://goo.gl/ZqyVT8" alt = "Vancuver" class = "img-responsive">
+                    <div class = "carousel-caption">
+                      <h1>Vancuver</h1>
+                      <p>This is just a normal paragraph</p>
+                    </div>
+                  </div>
+
+              </div>
+          
+      <a class = "carousel-control left" href = "#myCarousel" data-slide = "prev">
+        <span class = "icon-prev"></span>
+      </a>
+
+      <a class = "carousel-control right" href = "#myCarousel" data-slide = "next">
+        <span class = "icon-next"></span>
+      </a>
+
+
     </div>
+    
+    <!-- Carousel slides animation
+==========================================-->
 
-     <footer> 
-        <div class = "navbar navbar-default navbar-fixed-bottom">
-          <div class = "container">
-            <p class = "navbar-text pull-left">A <a href = "http://foundersandcoders.org/" target = "_blank">Founders And Coders</a> Blog</p>
-          <a href = "http://youtube.com/" class = "navbar-btn btn-info btn pull-right">Subscribe on YouTube</a>
-        </div>
+
+<br/><hr/><br/>
+
+ <section> 
+  <div class="col-md-3">
+    
+      <div class="thumbnail">
+        <img data-src="holder.js/300x200" alt="..." class="img-rounded">
+          <div class="caption">
+            <center>
+            <h3>Brian Guinan</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </center>
+          </div>
       </div>
-</footer>
+  </div>
+  
 
-      
+  
+  <div class="col-md-3">
+    
+      <div class="thumbnail">
+        <img src="http://goo.gl/I55kzZ" alt="Izaak Sofer" class="img-circle">
+          <div class="caption">
+            <center>
+            <h3>Izaak Sofer</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </center>
+          </div>
+      </div>
+  </div>
+  
 
-      
-     <script src ="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
-     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-      
-    </body>
+  
+  <div class="col-md-3">
+    
+      <div class="thumbnail">
+        <img src="http://goo.gl/Q9fZEe" alt="..." class="img-circle">
+          <div class="caption">
+            <center>
+            <h3>Barry O'Brien</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </center>
+          </div>
+      </div>
+  </div>
+  
+
+  
+  <div class="col-md-3">
+    
+      <div class="thumbnail">
+        <img src="http://goo.gl/HNXNqI" alt="..." class="img-circle">
+          <div class="caption">
+            <center>
+            <h3>Besart Shyti</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </center>
+          </div>
+      </div>
+  </div>
+    </section>
+
+
+
+
+    <footer> 
+      <br/>
+            <div class = "navbar navbar-default navbar-fixed-bottom">
+              <div class = "container">
+                <p class = "navbar-text pull-left">A Founders And Coders Blog</p>
+              <a href = "http://youtube.com/" class = "navbar-btn btn-info btn pull-right">Subscribe on YouTube</a>
+            </div>
+          </div>
+    </footer>
+
+
+
+
+       <script src ="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
+       <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+   </body>
 </html>

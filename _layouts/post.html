@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
  
-    {% assign my_variable1 = {% page.author %}
+    {% assign my_variable1 = page.author %}
     {% if my_variable1 == Besart %}
     {% include besart.html %}
     {% endif %}

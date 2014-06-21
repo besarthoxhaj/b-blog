@@ -18,6 +18,14 @@
       </item>
     
       <item>
+        <title>Liquid template in Jekyll</title>
+        <description>Hi guys! Today I want to show you some jekyll, let&#39;s get ready! </description>
+        <pubDate>Wed, 18 Jun 2014 13:17:36 +0000</pubDate>
+        <link>http://bteamfc.co.uk/tutorials/2014/06/18/Some-more-jekyll/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/18/Some-more-jekyll/</guid>
+      </item>
+    
+      <item>
         <title>development area using Github pages.</title>
         <description>&lt;p&gt;Below is a step-by-step guide to set up Nitrous development area using Github pages ..&lt;/p&gt;
 

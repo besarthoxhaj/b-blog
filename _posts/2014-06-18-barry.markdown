@@ -2,7 +2,7 @@
 layout: post
 title:  "development area using Github pages."
 date: 2014-06-17 19:56:47
-categories: tutorialsit
+categories: blog
 ---
 Below is a step-by-step guide to set up Nitrous development area using Github pages ..
 

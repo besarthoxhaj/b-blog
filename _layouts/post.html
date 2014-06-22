@@ -3,11 +3,21 @@ layout: default
 ---
 <div class="post">
  
-    {% assign my_variable1 = page.author %}
-    {% if my_variable1 == Besart %}
+    {% if page.author == "Besart" %}
     {% include besart.html %}
     {% endif %}
-
+    
+    {% if page.author == "Barry" %}
+      {% include barry.html %}
+    {% endif %}
+  
+    {% if page.author == "Brian" %}
+      {% include brian.html %}
+    {% endif %}
+  
+    {% if page.author == "Izaak" %}
+      {% include izaak.html %}
+    {% endif %}
 
   
   <header class="post-header">

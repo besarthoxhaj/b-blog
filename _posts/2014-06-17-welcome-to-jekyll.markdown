@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Brain's Post!"
+date: 2014-06-22 19:56:47
 categories: tutorials
+author: Brian
 ---
 
 You'll find this post in your `_posts` directory - edit edit edit this post and re-build (or run with the `-w` switch) to see your changes!

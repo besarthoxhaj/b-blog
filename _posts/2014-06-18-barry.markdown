@@ -2,7 +2,7 @@
 layout: post
 title:  "Development area using Github pages."
 date: 2014-06-17 19:56:47
-categories: blog
+categories: tutorials
 author: Barry
 ---
 

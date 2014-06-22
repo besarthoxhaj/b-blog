@@ -49,7 +49,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <title>Second round</title>
         <description>&lt;p&gt;It’s day three and we’ve learnt quite a lot of quite a little. From that, understand we’ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/broken-computer.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://www.mike-anderson-digital.co.uk/files/2813/6577/0639/broken-computer.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; /&gt;
+&lt;/center&gt;
 </description>
         <pubDate>Wed, 18 Jun 2014 13:17:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/blog/2014/06/18/new-test-post/</link>
@@ -58,19 +60,41 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
     
       <item>
         <title>Development area using Github pages.</title>
-        <description>&lt;p&gt;Below is a step-by-step guide to set up Nitrous development area using Github pages ..&lt;/p&gt;
+        <description>&lt;p&gt;Below is a step-by-step guide about how to set up a development area in Nitrous.io using Github pages ..&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/5s6q3u4rrbpmfjg/1.github.repository.png&quot; alt=&quot;Github/nitrous Blog image1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;1.Look at what you can do .. firstly set-up a Github (public) account and create a repository (bunch of files where you can store the docs/content for your website..). In this example we set-up a repository called ‘ettore90/blog’ for our web content.&lt;/p&gt;
 
-&lt;p&gt;Look at what we can do ..&lt;/p&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://i59.tinypic.com/bh12lx.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin:10px 10px 30px 10px;&quot; /&gt;
+&lt;/center&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/vncvuhuviesfjdz/2.createbox.nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;2.The folders in your newly created Github repository will look something like this below..&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/k8yk2kx344144pd/3.newbox.nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image3&quot; /&gt;&lt;/p&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://i59.tinypic.com/w4bk3.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin: 0 -10px 30px;&quot; /&gt;
+&lt;/center&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/m4xi4k3d6n02df6/4.nitrous.io.commandline.page.png&quot; alt=&quot;Github/nitrous Blog image4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;3.Once your Github repository has been created you can ‘clone’ (copy+paste) the repository folders/files into the Nitrous development area by copying your Gitbub repository url, easy’huh :)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.dropbox.com/s/aeuxhd4ec4pmavx/5.github.folders.appear.in.Nitrous.io.png&quot; alt=&quot;Github/nitrous Blog image5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;4.Now would be a good time to create an account/profile in Nitrous.io. Once in Nitrous click on the ‘new box’ tab and then click the ‘create box’ tab (see example below)&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;http://i57.tinypic.com/4kb2tt.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin: 0 -10px 30px;&quot; /&gt;
+&lt;/center&gt;
+
+&lt;p&gt;5.You’ll know your in your development area when you see the page below the most important part in this step is getting familar with the command-line, this is where you will clone (cut+paste) your Github repository in effect creating a copy of your website files.. Please type in the command-line git clone “github url” and hit return!&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;http://i59.tinypic.com/2utm6om.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin: 0 -10px 30px;&quot; /&gt;
+&lt;/center&gt;
+
+&lt;p&gt;6.Enjoy building your webiste in your own ‘dev’ area .. :) but read step 7 first!&lt;/p&gt;
+
+&lt;center&gt;
+  &lt;img src=&quot;http://i61.tinypic.com/14uj37r.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin: 0 -10px 30px;&quot; /&gt;
+&lt;/center&gt;
+
+&lt;p&gt;7.In the example above we are using Jekyll to develop our website, thats a whole other tutorial!!&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
         <link>http://bteamfc.co.uk/blog/2014/06/17/barry/</link>

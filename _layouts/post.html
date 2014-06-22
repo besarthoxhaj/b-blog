@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+
  
     {% if page.author == "Besart" %}
     {% include besart.html %}
@@ -20,15 +20,38 @@ layout: default
     {% endif %}
 
   
-  <header class="post-header">
+  
     <h1>{{ page.title }}</h1>
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
 
   <hr/>
-  
-  <article class="post-content">
-  {{ content }}
-  </article>
+ 
+     <div class="col-xs-9">
+      <article>
+      {{ content }}
+      </article>
+     
+  <hr/>
+       
+      <h2>Ask {{page.author}} for details!</h2>
+           
+            <form method="POST" action="http://forms.brace.io/bteamfc@gmail.com">
+                
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </div>
 
-</div>
+                <div class="form-group">
+                    <label for="exampleTextArea">Extravagant flattery here:</label>
+                    <textarea name="message" class="form-control" rows="3"></textarea>    
+                </div>
+
+                <input type="hidden" name="_next" value="//bteamfc.co.uk" />
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+
+          </div>

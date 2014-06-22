@@ -102,10 +102,6 @@
 
   </center>
 </div>
-
-<ul class="posts">
-    
-  </ul>
     
     
     
@@ -113,7 +109,6 @@
     
   
     
-
   
   
     <h1>Liquid template in Jekyll</h1>
@@ -123,7 +118,56 @@
  
      <div class="col-xs-9">
       <article>
-      Hi guys! Today I want to show you some jekyll!
+      <p>Hi guys! Today I want to show you some jekyll! Basically I wanted that my <code>posts page</code> (all of them, possibly automatically) looked like the right one, from the forbes.com website.</p>
+
+<div class="row">
+    <div class="col-xs-6"><img src="http://oi59.tinypic.com/10fyvwj.jpg" class="img-thumbnail" style="margin:10px 10px 30px 10px;" /></div>
+    <div class="col-xs-6"><img src="http://i61.tinypic.com/2d91mbs.jpg" class="img-thumbnail" style="margin:10px 10px 30px 10px;" /></div>
+</div>
+
+<p>To make this happened I used Jekeyll. Jekyll uses a liquid template engine, which basically helps you not writing the same code again and again.</p>
+
+<p>From here on I take from grant that you are a bit familiar with liquid template engine, if this is not the case, I recommend to have a look at this <a href="#">short guide.</a></p>
+
+<p>There are two types of markup in liquid:</p>
+
+<ul>
+  <li><strong>Logic tags</strong>:  These are conditional liquid statements. They are the statement that tells the code what to do.</li>
+  <li><strong>Output tags</strong>: these tags display the liquid found between it. You can also use filters to change the output returned</li>
+  </ul>
+
+<p>First I created 4 nominative file in <code>_include</code> directory. I called them <code>besart.html</code>, <code>barry.html</code>, <code>izaak.html</code> and <code>brian.html</code>.</p>
+
+<div class="col-xs-12">
+<center>
+  <img src="http://i60.tinypic.com/2jdgzh4.jpg" class="img-thumbnail" style="width:70%;margin:10px 10px 30px 10px;" />
+  </center>
+</div>
+
+<p>Than implement the following code in post.html</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="p">(</span><span class="sx">% if </span><span class="n">page</span><span class="o">.</span><span class="n">author</span> <span class="o">==</span> <span class="s2">&quot;Besart&quot;</span> <span class="sx">%}</span>
+<span class="sx">   (% include besart.html %}</span>
+  <span class="p">(</span><span class="sx">% endif %}</span>
+
+<span class="sx">  (% if page.author == &quot;Barry&quot; %}</span>
+   <span class="p">(</span><span class="sx">% include </span><span class="n">barry</span><span class="o">.</span><span class="n">html</span> <span class="sx">%}</span>
+<span class="sx">  (% endif %}</span></code></pre></div>
+
+<div class="col-xs-12">
+<center>
+  <img src="http://i60.tinypic.com/23ma1ah.jpg" class="img-thumbnail" style="width:70%;margin:10px 10px 30px 10px;" />
+  </center>
+</div>
+
+<p>At this point however I had to create a meta data called ‘author: authorName’. Which will be inherited first in post then in page.</p>
+
+<div class="col-xs-12">
+<center>
+  <img src="http://i58.tinypic.com/atsy1f.jpg" class="img-thumbnail" style="width:70%;margin:10px 10px 30px 10px;" />
+  </center>
+</div>
+
       </article>
      
   <hr/>

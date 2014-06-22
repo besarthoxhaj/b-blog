@@ -11,7 +11,7 @@
         <description>&lt;p&gt;It’s day three and we’ve learnt quite a lot of quite a little. From that, understand we’ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.&lt;/p&gt;
 
 &lt;center&gt;
-  &lt;img src=&quot;http://www.mike-anderson-digital.co.uk/files/2813/6577/0639/broken-computer.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; /&gt;
+  &lt;img src=&quot;http://www.mike-anderson-digital.co.uk/files/2813/6577/0639/broken-computer.jpg&quot; alt=&quot;...&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;height:auto;margin:10px 10px 30px 10px;&quot; /&gt;
 &lt;/center&gt;
 </description>
         <pubDate>Sun, 22 Jun 2014 13:17:36 +0000</pubDate>
@@ -21,7 +21,56 @@
     
       <item>
         <title>Liquid template in Jekyll</title>
-        <description>Hi guys! Today I want to show you some jekyll!</description>
+        <description>&lt;p&gt;Hi guys! Today I want to show you some jekyll! Basically I wanted that my &lt;code&gt;posts page&lt;/code&gt; (all of them, possibly automatically) looked like the right one, from the forbes.com website.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-xs-6&quot;&gt;&lt;img src=&quot;http://oi59.tinypic.com/10fyvwj.jpg&quot; class=&quot;img-thumbnail&quot; style=&quot;margin:10px 10px 30px 10px;&quot; /&gt;&lt;/div&gt;
+    &lt;div class=&quot;col-xs-6&quot;&gt;&lt;img src=&quot;http://i61.tinypic.com/2d91mbs.jpg&quot; class=&quot;img-thumbnail&quot; style=&quot;margin:10px 10px 30px 10px;&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To make this happened I used Jekeyll. Jekyll uses a liquid template engine, which basically helps you not writing the same code again and again.&lt;/p&gt;
+
+&lt;p&gt;From here on I take from grant that you are a bit familiar with liquid template engine, if this is not the case, I recommend to have a look at this &lt;a href=&quot;#&quot;&gt;short guide.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two types of markup in liquid:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Logic tags&lt;/strong&gt;:  These are conditional liquid statements. They are the statement that tells the code what to do.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Output tags&lt;/strong&gt;: these tags display the liquid found between it. You can also use filters to change the output returned&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;p&gt;First I created 4 nominative file in &lt;code&gt;_include&lt;/code&gt; directory. I called them &lt;code&gt;besart.html&lt;/code&gt;, &lt;code&gt;barry.html&lt;/code&gt;, &lt;code&gt;izaak.html&lt;/code&gt; and &lt;code&gt;brian.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;col-xs-12&quot;&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://i60.tinypic.com/2jdgzh4.jpg&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;margin:10px 10px 30px 10px;&quot; /&gt;
+  &lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Than implement the following code in post.html&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% if &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Besart&amp;quot;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;sx&quot;&gt;   (% include besart.html %}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endif %}&lt;/span&gt;
+
+&lt;span class=&quot;sx&quot;&gt;  (% if page.author == &amp;quot;Barry&amp;quot; %}&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% include &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;barry&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;sx&quot;&gt;  (% endif %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;col-xs-12&quot;&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://i60.tinypic.com/23ma1ah.jpg&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;margin:10px 10px 30px 10px;&quot; /&gt;
+  &lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;At this point however I had to create a meta data called ‘author: authorName’. Which will be inherited first in post then in page.&lt;/p&gt;
+
+&lt;div class=&quot;col-xs-12&quot;&gt;
+&lt;center&gt;
+  &lt;img src=&quot;http://i58.tinypic.com/atsy1f.jpg&quot; class=&quot;img-thumbnail&quot; style=&quot;width:70%;margin:10px 10px 30px 10px;&quot; /&gt;
+  &lt;/center&gt;
+&lt;/div&gt;
+</description>
         <pubDate>Sun, 22 Jun 2014 13:17:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/tutorials/2014/06/22/Some-more-jekyll/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/22/Some-more-jekyll/</guid>
@@ -93,9 +142,9 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
     
       <item>
         <title>Izaak&#39;s Post</title>
-        <description>It&#39;s day three and we&#39;ve learnt quite a lot of quite a little. From that, understand we&#39;ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.
+        <description>&lt;p&gt;It’s day three and we’ve learnt quite a lot of quite a little. From that, understand we’ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.&lt;/p&gt;
 
-![My helpful screenshot](/assets/broken-computer.jpg)</description>
+</description>
         <pubDate>Tue, 17 Jun 2014 13:17:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/blog/2014/06/17/Test2/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/17/Test2/</guid>

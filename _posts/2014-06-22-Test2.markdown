@@ -9,4 +9,3 @@ author: Izaak
 
 It's day three and we've learnt quite a lot of quite a little. From that, understand we've learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.
 
-![My helpful screenshot](/assets/broken-computer.jpg)

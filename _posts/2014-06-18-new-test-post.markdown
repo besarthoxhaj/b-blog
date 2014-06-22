@@ -10,5 +10,5 @@ author: Izaak
 It's day three and we've learnt quite a lot of quite a little. From that, understand we've learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.
 
 <center>
-  <img src="http://www.mike-anderson-digital.co.uk/files/2813/6577/0639/broken-computer.jpg" alt="..." class="img-thumbnail">
+  <img src="http://www.mike-anderson-digital.co.uk/files/2813/6577/0639/broken-computer.jpg" alt="..." class="img-thumbnail" style="width:70%;height:auto;margin:10px 10px 30px 10px;">
 </center>

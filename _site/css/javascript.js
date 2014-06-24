@@ -1,9 +1,10 @@
   $.ajax({
-    url: "http://content.guardianapis.com/search?section=news",
+    url: "http://content.guardianapis.com/search?section=news&show-fields=trailText",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
         $( "#news" ).append("<li>" + this['webTitle'] + "</li>");
+        $( "#news" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
     }});
 

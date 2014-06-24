@@ -3,7 +3,7 @@
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#news" ).append("<li>" + this['webTitle'] + "</li>");
+        $( "#news" ).append('<a href="' + this['webUrl'] + '"><h5>' + this['webTitle'] + '<h5></a>');
         $( "#news" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
     }});

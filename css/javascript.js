@@ -9,19 +9,21 @@
     }});
 
   $.ajax({
-    url: "http://content.guardianapis.com/search?section=football",
+    url: "http://content.guardianapis.com/search?section=football&show-fields=trailText",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#football" ).append("<li>" + this['webTitle'] + "</li>");
+        $( "#football" ).append('<a href="' + this['webUrl'] + '"><h5>' + this['webTitle'] + '<h5></a>');
+        $( "#football" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
     }});
 
   $.ajax({
-    url: "http://content.guardianapis.com/search?section=travel",
+    url: "http://content.guardianapis.com/search?section=travel&show-fields=trailText",
     dataType: "jsonp",
     success: function(data) {
       $.each(data.response.results, function () {
-        $( "#travel" ).append("<li>" + this['webTitle'] + "</li>");
+        $( "#travel" ).append('<a href="' + this['webUrl'] + '"><h5>' + this['webTitle'] + '<h5></a>');
+        $( "#travel" ).append("<ul>" + this['fields'].trailText + "</ul>");
       });
     }});

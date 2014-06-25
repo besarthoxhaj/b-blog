@@ -1,3 +1,7 @@
+  $(function () {
+    $( "#tabs" ).tabs();
+  });
+
   $.ajax({
     url: "http://content.guardianapis.com/search?section=news&show-fields=trailText",
     dataType: "jsonp",

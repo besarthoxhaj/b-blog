@@ -7,6 +7,52 @@
     <atom:link href="http://bteamfc.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The Guardian API challenge</title>
+        <description>&lt;center&gt;
+&lt;div class=&quot;big-wrapper&quot;&gt;
+&lt;div class=&quot;tab-title&quot;&gt;
+&lt;h2&gt;On the Guardian&lt;/h2&gt;
+&lt;/div&gt;
+&lt;!-- Nav tabs --&gt;
+
+&lt;div class=&quot;small-wrapper&quot;&gt;
+&lt;div class=&quot;tab-container&quot;&gt;
+&lt;ul class=&quot;nav nav-tabs&quot;&gt;
+&lt;li class=&quot;active pull-right&quot;&gt;&lt;a href=&quot;#fragment-uk-news&quot; data-toggle=&quot;tab&quot;&gt;Uk-news&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;pull-right&quot;&gt;&lt;a href=&quot;#fragment-football&quot; data-toggle=&quot;tab&quot;&gt;Football&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;pull-right&quot;&gt;&lt;a href=&quot;#fragment-travel&quot; data-toggle=&quot;tab&quot;&gt;Travel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;!-- Tab panes --&gt;
+&lt;div class=&quot;tab-content&quot;&gt;
+&lt;div class=&quot;tab-pane fade in active&quot; id=&quot;fragment-uk-news&quot;&gt;
+&lt;ol id=&quot;uk-news&quot;&gt;&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tab-pane fade&quot; id=&quot;fragment-football&quot;&gt;
+&lt;ol id=&quot;football&quot;&gt;&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tab-pane fade&quot; id=&quot;fragment-travel&quot;&gt;
+&lt;ol id=&quot;travel&quot;&gt;&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;no-java&quot;&gt;
+&lt;h1&gt;Dude there&#39;s no javascript&lt;/h1&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/center&gt;
+
+</description>
+        <pubDate>Thu, 26 Jun 2014 13:17:36 +0000</pubDate>
+        <link>http://bteamfc.co.uk/tutorials/2014/06/26/Test2/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/26/Test2/</guid>
+      </item>
+    
+      <item>
         <title>Day three</title>
         <description>&lt;p&gt;It’s day three and we’ve learnt quite a lot of quite a little. From that, understand we’ve learnt the hard way, battling tooth and claw through misunderstanding, muddle and mistake to gain a fairly deep understanding of a few basic tools.&lt;/p&gt;
 
@@ -138,52 +184,6 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
         <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
         <link>http://bteamfc.co.uk/tutorials/2014/06/17/barry/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/17/barry/</guid>
-      </item>
-    
-      <item>
-        <title>Izaak&#39;s Post</title>
-        <description>&lt;center&gt;
-&lt;div class=&quot;big-wrapper&quot;&gt;
-&lt;div class=&quot;tab-title&quot;&gt;
-&lt;h2&gt;On the Guardian&lt;/h2&gt;
-&lt;/div&gt;
-&lt;!-- Nav tabs --&gt;
-
-&lt;div class=&quot;small-wrapper&quot;&gt;
-&lt;div class=&quot;tab-container&quot;&gt;
-&lt;ul class=&quot;nav nav-tabs&quot;&gt;
-&lt;li class=&quot;active pull-right&quot;&gt;&lt;a href=&quot;#fragment-uk-news&quot; data-toggle=&quot;tab&quot;&gt;Uk-news&lt;/a&gt;&lt;/li&gt;
-&lt;li class=&quot;pull-right&quot;&gt;&lt;a href=&quot;#fragment-football&quot; data-toggle=&quot;tab&quot;&gt;Football&lt;/a&gt;&lt;/li&gt;
-&lt;li class=&quot;pull-right&quot;&gt;&lt;a href=&quot;#fragment-travel&quot; data-toggle=&quot;tab&quot;&gt;Travel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;!-- Tab panes --&gt;
-&lt;div class=&quot;tab-content&quot;&gt;
-&lt;div class=&quot;tab-pane fade in active&quot; id=&quot;fragment-uk-news&quot;&gt;
-&lt;ol id=&quot;uk-news&quot;&gt;&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab-pane fade&quot; id=&quot;fragment-football&quot;&gt;
-&lt;ol id=&quot;football&quot;&gt;&lt;/ol&gt;
-&lt;/div&gt;
-&lt;div class=&quot;tab-pane fade&quot; id=&quot;fragment-travel&quot;&gt;
-&lt;ol id=&quot;travel&quot;&gt;&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;no-java&quot;&gt;
-&lt;h1&gt;Dude there&#39;s no javascript&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/center&gt;
-
-</description>
-        <pubDate>Tue, 17 Jun 2014 13:17:36 +0000</pubDate>
-        <link>http://bteamfc.co.uk/blog/2014/06/17/Test2/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/17/Test2/</guid>
       </item>
     
   </channel>

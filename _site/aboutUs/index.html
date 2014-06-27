@@ -59,14 +59,59 @@
                 </ul> 
               </li>
           
-          <li><a href = "/contact/">Contact us</a></li>
-
-        
+          <li><a href='#' data-toggle="modal" data-target="#myModal">Contact us</a></li> <!-- Button trigger modal -->
         </ul>
       </div>
     </div>
    </div>
   </header>
+   <!-- Modal stuff starts ==========================================-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Go ahead, lavish praise on our blog ...you know you want to!</h4>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="http://forms.brace.io/bteamfc@gmail.com">
+              <div class="form-group">
+                  <label for="exampleInputName">Name</label>
+                  <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                  <label for="exampleTextArea">Extravagant flattery here:</label>
+                  <textarea name="message" class="form-control" rows="3"></textarea>    
+              </div>
+              <div class="form-group">
+                  <label>How would you rate your browsing experience out of 10?</label><br />
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox1" value="option1"> 9
+                  </label>
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox2" value="option2"> 10
+                  </label>
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox3" value="option3"> 11
+                  </label> 
+                  </div>
+                
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <input type="hidden" name="_next" value="//bteamfc.co.uk" />
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>     
+  <!-- Modal stuff ends here ==========================================-->
 
 
        <br/>
@@ -126,12 +171,9 @@
             
             
             
-            <p>his blog has been built as the central part of B-Team’s first week project, for the 7 week Founders & Coders course, at Collective Academy.</p>
-          
-<p>
-Founders & Coders is run by Dan Sofer and Pastor Jurado. The aim of this project is to take a small group of highly motivated students and provide them with a world class education, with as little cost as possible. </p>
-<p>
-Dan, borrowing from the ideas of Richard Felda and Sugata Mitra, has developed a highly effective model for learning. <a href = “mailto:d@sofer.com”>Get in touch</a> if you would like to know more.</p>
+            <p>This blog has been built as the central part of B-Team’s first week project, for the 7 week Founders & Coders course, at Collective Academy.</p>
+            <p>Founders & Coders is run by Dan Sofer and Pastor Jurado. The aim of this project is to take a small group of highly motivated students and provide them with a world class education, with as little cost as possible.</p>
+            <p>Dan, borrowing from the ideas of Richard Felda and Sugata Mitra, has developed a highly effective model for learning. <a href = “mailto:d@sofer.com”>Get in touch</a> if you would like to know more.</p>
             
             <footer> 
    <br/>
@@ -150,3 +192,4 @@ Dan, borrowing from the ideas of Richard Felda and Sugata Mitra, has developed a
      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
      <script src="/css/javascript.js"></script>
 </footer>
+

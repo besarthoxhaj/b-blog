@@ -7,11 +7,26 @@
     <atom:link href="http://bteamfc.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>The Guardian API challenge</title>
+        <title>Guardian widget presentation</title>
+        <description>&lt;p&gt;Just a smidge of extra pressure came to bear yesterday as the teams had to present their week two project a day early and to a particularly daunting audience. Stephan Fowler is a Senior Developer at Guardian News &amp;amp; Media and a very canny customer, and given that the project is actually a recruitment test for the Guardian he’s seen it executed by some of the best coders in the country. Team GetYourCodeOn blew us all away with the first presentation, Stefan was gobsmacked and struggled to find a constructive criticism! &lt;/p&gt;
+&lt;p&gt;When our time came Besart went toe to toe with the pro and ably held his own in a tense standoff over the niceties of Jquery loops! Here's a soundbite from a bowled-over Mr. Fowler:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;iframe src=&quot;//player.vimeo.com/video/99341805&quot; width=&quot;350&quot; height=&quot;600&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; 
+&lt;/center&gt;
+
+</description>
+        <pubDate>Fri, 27 Jun 2014 15:13:36 +0000</pubDate>
+        <link>http://bteamfc.co.uk/blog/2014/06/27/interview/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/27/interview/</guid>
+      </item>
+    
+      <item>
+        <title>The BBC API challenge</title>
         <description>&lt;center&gt;
 &lt;div class=&quot;big-wrapper&quot;&gt;
 &lt;div class=&quot;tab-title&quot;&gt;
-&lt;h2&gt;On the Guardian&lt;/h2&gt;
+&lt;h2&gt;On the BBC&lt;/h2&gt;
 &lt;/div&gt;
 &lt;!-- Nav tabs --&gt;
 
@@ -41,7 +56,7 @@
 &lt;/div&gt;
 
 &lt;div id=&quot;no-java&quot;&gt;
-&lt;h1&gt;Dude there&#39;s no javascript&lt;/h1&gt;
+&lt;h1&gt;Dude there's no javascript&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/center&gt;
@@ -63,6 +78,21 @@
         <pubDate>Sun, 22 Jun 2014 13:17:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/blog/2014/06/22/new-test-post/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/22/new-test-post/</guid>
+      </item>
+    
+      <item>
+        <title>Day three</title>
+        <description>&lt;p&gt;Barry is dead, long live Barry!&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, our friend Barry is leaving us. He will be missed! Although we are sad to be loosing him, we can at least be happy in the knowledge that Barry’s positive attitude, hard work and calming influence has found a good home in the GLA, where he will be tackling the ever important issue of London air quality.&lt;/p&gt;
+
+&lt;p&gt;Barry has his dream job, the GLA have their best man; some things are meant to be.&lt;/p&gt;
+
+&lt;p&gt;Good luck Barry!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Jun 2014 13:17:36 +0000</pubDate>
+        <link>http://bteamfc.co.uk/blog/2014/06/22/barrys-last-day/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/22/barrys-last-day/</guid>
       </item>
     
       <item>
@@ -123,7 +153,7 @@
       </item>
     
       <item>
-        <title>Brain&#39;s Post!</title>
+        <title>Brain's Post!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit edit edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 

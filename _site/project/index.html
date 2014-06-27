@@ -14,7 +14,7 @@
   
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Guardian API challenge</title>
+    <title>The BBC API challenge</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Our Blogg for Founders and Coders">
     <link rel="canonical" href="http://bteamfc.co.uk/project/">
@@ -60,14 +60,59 @@
                 </ul> 
               </li>
           
-          <li><a href = "/contact/">Contact us</a></li>
-
-        
+          <li><a href='#' data-toggle="modal" data-target="#myModal">Contact us</a></li> <!-- Button trigger modal -->
         </ul>
       </div>
     </div>
    </div>
   </header>
+   <!-- Modal stuff starts ==========================================-->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">Go ahead, lavish praise on our blog ...you know you want to!</h4>
+          </div>
+          <div class="modal-body">
+            <form method="POST" action="http://forms.brace.io/bteamfc@gmail.com">
+              <div class="form-group">
+                  <label for="exampleInputName">Name</label>
+                  <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                  <label for="exampleTextArea">Extravagant flattery here:</label>
+                  <textarea name="message" class="form-control" rows="3"></textarea>    
+              </div>
+              <div class="form-group">
+                  <label>How would you rate your browsing experience out of 10?</label><br />
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox1" value="option1"> 9
+                  </label>
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox2" value="option2"> 10
+                  </label>
+                  <label class="checkbox-inline">
+                      <input name="choose" type="checkbox" id="inlineCheckbox3" value="option3"> 11
+                  </label> 
+                  </div>
+                
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <input type="hidden" name="_next" value="//bteamfc.co.uk" />
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>     
+  <!-- Modal stuff ends here ==========================================-->
 
 
 
@@ -78,14 +123,14 @@
 <center>
 <div class="big-wrapper">
 <div class="tab-title">
-<h2>On the Guardian</h2>
+<h2>On the BBC</h2>
 </div>
 <!-- Nav tabs -->
 
 <div class="small-wrapper">
 <div class="tab-container">
 <ul class="nav nav-tabs">
-<li class="active pull-right"><a href="#fragment-uk-news" data-toggle="tab">Uk-news</a></li>
+<li class="active pull-right"><a href="#fragment-uk-news" data-toggle="tab">UK news</a></li>
 <li class="pull-right"><a href="#fragment-football" data-toggle="tab">Football</a></li>
 <li class="pull-right"><a href="#fragment-travel" data-toggle="tab">Travel</a></li>
 </ul>

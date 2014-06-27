@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Guardian API challenge"
+title:  "The BBC API challenge"
 date: 2014-06-26 13:17:36
 categories: tutorials
 author: Izaak
@@ -12,7 +12,7 @@ author: Izaak
 <center>
 <div class="big-wrapper">
 <div class="tab-title">
-<h2>On the Guardian</h2>
+<h2>On the BBC</h2>
 </div>
 <!-- Nav tabs -->
 

@@ -1,25 +1,9 @@
 ---
 layout: post
-title:  "Brain's Post!"
-date: 2014-06-17 19:56:47
+title:  "learnyouNode"
+date: 2014-07-07 19:56:47
 categories: tutorials
 author: Brian
 ---
 
-You'll find this post in your `_posts` directory - edit edit edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+We all had lots of fun tackling the exercises in learnyouNode, a Node.js training package which is aimed at experienced coders with broad javascript skills - just like us!! Back in the real world we all realised by the start of the second day that our scattergun approach to learning from scratch wasn't going to cut it and some didacticism was required from a reluctant Dan. It was a pleasant change of pace working through the problems individually for an hour and then writing the solutions from scratch collaboratively. While it took a bit longer than expected we came out with a firmer grasp of javascript as well as a foundation in Node, new weapons in our assault on these recalcitrant machines!

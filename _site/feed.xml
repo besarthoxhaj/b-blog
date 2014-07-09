@@ -7,6 +7,30 @@
     <atom:link href="http://bteamfc.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>learnyouNode</title>
+        <description>&lt;p&gt;We all had lots of fun tackling the exercises in learnyouNode, a Node.js training package which is aimed at experienced coders with broad javascript skills - just like us!! Back in the real world we all realised by the start of the second day that our scattergun approach to learning from scratch wasn’t going to cut it and some didacticism was required from a reluctant Dan. It was a pleasant change of pace working through the problems individually for an hour and then writing the solutions from scratch collaboratively. While it took a bit longer than expected we came out with a firmer grasp of javascript as well as a foundation in Node, new weapons in our assault on these recalcitrant machines!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Jul 2014 19:56:47 +0000</pubDate>
+        <link>http://bteamfc.co.uk/tutorials/2014/07/07/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/07/07/welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Barrys last day</title>
+        <description>&lt;p&gt;Barry has gone, long live Barry!&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, our friend Barry is leaving us. He will be missed! Although we are sad to be loosing him we can take comfort in the knowledge that Barry’s positive attitude, hard work and calming influence has found a good home in the GLA, where he will be tackling the ever important issue of London air quality.&lt;/p&gt;
+
+&lt;p&gt;Barry has his dream job, the GLA have their best man; some things are meant to be.&lt;/p&gt;
+
+&lt;p&gt;Good luck Barry!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Jun 2014 19:17:36 +0000</pubDate>
+        <link>http://bteamfc.co.uk/blog/2014/06/27/barrys-gone/</link>
+        <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/27/barrys-gone/</guid>
+      </item>
+    
+      <item>
         <title>Guardian widget presentation</title>
         <description>&lt;p&gt;Just a smidge of extra pressure came to bear yesterday as the teams had to present their week two project a day early and to a particularly daunting audience. Stephan Fowler is a Senior Developer at Guardian News &amp;amp; Media and a very canny customer, and given that the project is actually a recruitment test for the Guardian he’s seen it executed by some of the best coders in the country. Team GetYourCodeOn blew us all away with the first presentation, Stefan was gobsmacked and struggled to find a constructive criticism! &lt;/p&gt;
 &lt;p&gt;When our time came Besart went toe to toe with the pro and ably held his own in a tense standoff over the niceties of Jquery loops! Here's a soundbite from a bowled-over Mr. Fowler:&lt;/p&gt;
@@ -19,15 +43,6 @@
         <pubDate>Fri, 27 Jun 2014 15:13:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/blog/2014/06/27/interview/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/blog/2014/06/27/interview/</guid>
-      </item>
-    
-      <item>
-        <title>Barry Gone</title>
-        <description>
-</description>
-        <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
-        <link>http://bteamfc.co.uk/2014/06/27/barry-gone/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/2014/06/27/barry-gone/</guid>
       </item>
     
       <item>
@@ -119,7 +134,7 @@
 
 &lt;p&gt;Than implement the following code in post.html&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% if &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Besart&amp;quot;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% if &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Besart&amp;quot;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
 &lt;span class=&quot;sx&quot;&gt;   (% include besart.html %}&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;% endif %}&lt;/span&gt;
 
@@ -144,27 +159,6 @@
         <pubDate>Sun, 22 Jun 2014 13:17:36 +0000</pubDate>
         <link>http://bteamfc.co.uk/tutorials/2014/06/22/Some-more-jekyll/</link>
         <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/22/Some-more-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Brain's Post!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit edit edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 17 Jun 2014 19:56:47 +0000</pubDate>
-        <link>http://bteamfc.co.uk/tutorials/2014/06/17/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://bteamfc.co.uk/tutorials/2014/06/17/welcome-to-jekyll/</guid>
       </item>
     
       <item>

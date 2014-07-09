@@ -1,6 +1,41 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
+div.stuff1 {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #0099CC;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.stuff1 img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.stuff1 a:hover img {
+    border:1px solid #0099CC;
+}
+
+h1 {color: #006666;
+    text-align: center;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    font-size: large;
+    font-style: italic;
+    color: #006666;
+    width: 120px;
+    margin: 5px;
+}
+
+
 * {
   margin: 0;
   padding: 0;

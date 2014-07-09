@@ -21,7 +21,7 @@
 
         success: function(data) {
           $.each(data.stuff, function () {
-            $( "#tweets" ).append('<div class="img"><a target="_blank" href="klematis_big.htm"><img src="' + this['img'] + '" alt="Klematis" width="300" height="250"></a><div class="desc">' + this['name'] +  '</div></div>');
+            $( "#tweets" ).append('<div class="stuff1"><a target="_blank" href="klematis_big.htm"><img src="' + this['img'] + '" alt="Klematis" width="300" height="250"></a><div class="desc">' + this['name'] +  '</div></div>');
           });
        }});
     

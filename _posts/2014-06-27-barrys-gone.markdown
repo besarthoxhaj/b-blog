@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Barrys last day"
+title:  "Barry's last day"
 date: 2014-06-27 19:17:36
 categories: blog
 author: Izaak
